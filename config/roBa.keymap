@@ -75,7 +75,7 @@
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
 
-        NUM {
+        SYMBOL {
             bindings = <
 &kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                                   &kp CARET         &kp AMPERSAND      &kp TILDE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
 &kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp EXCLAMATION   &kp AT_SIGN        &kp HASH        &kp DOLLAR            &kp PERCENT
@@ -84,12 +84,12 @@
             >;
         };
 
-        ARROW {
+        ARROW_NUM {
             bindings = <
-&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                       &trans  &trans  &trans  &trans  &trans
-&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &trans                  &trans          &trans                   &trans   &trans      &trans  &trans                          &trans
+&kp ESCAPE                &kp HOME                 &kp UP_ARROW             &kp END                     &trans                       &trans                       &kp KP_NUMBER_7            &kp KP_NUMBER_8            &kp KP_NUMBER_9                &trans
+&mt LEFT_CONTROL PAGE_UP  &mt LEFT_WIN LEFT_ARROW  &mt LEFT_ALT DOWN_ARROW  &mt LEFT_SHIFT RIGHT_ARROW  &kp END  &trans      &trans  &mt RIGHT_SHIFT KP_NUMBER_0  &mt RIGHT_ALT KP_NUMBER_4  &mt RIGHT_ALT KP_NUMBER_5  &mt RIGHT_CONTROL KP_NUMBER_6  &trans
+&kp PAGE_DOWN             &kp LG(LS(LEFT_ARROW))   &trans                   &kp LG(LS(RIGHT_ARROW))     &trans   &trans      &trans  &trans                       &kp KP_NUMBER_1            &kp KP_NUMBER_2            &kp KP_NUMBER_3                &trans
+&trans                    &trans                   &trans                   &trans                      &trans   &trans      &trans  &trans                                                                                                            &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
