@@ -88,10 +88,10 @@
 
         SYMBOL {
             bindings = <
-&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp CARET        &kp SLASH                         &kp BACKSLASH   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LESS_THAN     &kp GREATER_THAN
-&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp EQUAL     &trans      &trans  &kp UNDERSCORE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp COLON         &kp SEMICOLON
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp QUESTION  &trans      &trans  &kp PIPE        &kp LEFT_BRACKET      &kp LEFT_BRACE         &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES
-&trans                      &trans           &trans           &trans           &trans        &sl 6       &trans  &trans                                                                         &trans
+&kp AT_SIGN                   &kp GRAVE               &kp QUESTION       &kp EXCLAMATION       &none                               &kp BACKSLASH  &kp LEFT_BRACE                   &kp RIGHT_BRACE                  &kp LESS_THAN        &kp GREATER_THAN
+&mt LEFT_CONTROL ASTERISK     &mt LEFT_WIN AMPERSAND  &mt LEFT_ALT PIPE  &mt LEFT_SHIFT EQUAL  &kp UNDERSCORE  &trans      &trans  &kp SLASH      &mt LEFT_SHIFT LEFT_PARENTHESIS  &mt RIGHT_ALT RIGHT_PARENTHESIS  &mt RIGHT_WIN COLON  &mt RIGHT_CONTROL SEMICOLON
+&mt LEFT_CONTROL KP_NUMBER_0  &kp CARET               &kp TILDE          &kp DOLLAR            &kp PERCENT     &trans      &trans  &kp HASH       &kp LEFT_BRACKET                 &kp LEFT_BRACE                   &kp SINGLE_QUOTE     &kp DOUBLE_QUOTES
+&trans                        &trans                  &trans             &trans                &trans          &sl 6       &trans  &trans                                                                                                &trans
             >;
         };
 
