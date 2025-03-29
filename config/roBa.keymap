@@ -77,10 +77,10 @@
 
         ARROW_NUM {
             bindings = <
-&kp ESCAPE                &kp HOME                &kp UP_ARROW    &kp END                  &trans                      &trans           &kp KP_NUMBER_7             &kp KP_NUMBER_8            &kp KP_NUMBER_9            &trans
-&mt LEFT_CONTROL PAGE_UP  &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &trans  &trans      &trans  &kp KP_NUMBER_0  &mt LEFT_SHIFT KP_NUMBER_4  &mt RIGHT_ALT KP_NUMBER_5  &mt RIGHT_WIN KP_NUMBER_6  &kp LEFT_CONTROL
-&kp PAGE_DOWN             &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans  &trans      &trans  &trans           &kp KP_NUMBER_1             &kp KP_NUMBER_2            &kp KP_NUMBER_3            &trans
-&trans                    &trans                  &trans          &trans                   &trans  &trans      &trans  &trans                                                                                             &trans
+&kp ESCAPE                &kp HOME                &kp UP_ARROW    &kp END                  &trans                           &trans           &kp KP_NUMBER_7             &kp KP_NUMBER_8            &kp KP_NUMBER_9            &trans
+&mt LEFT_CONTROL PAGE_UP  &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &trans       &trans      &trans  &kp KP_NUMBER_0  &mt LEFT_SHIFT KP_NUMBER_4  &mt RIGHT_ALT KP_NUMBER_5  &mt RIGHT_WIN KP_NUMBER_6  &kp LEFT_CONTROL
+&kp PAGE_DOWN             &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans       &trans      &trans  &trans           &kp KP_NUMBER_1             &kp KP_NUMBER_2            &kp KP_NUMBER_3            &trans
+&trans                    &trans                  &trans          &trans                   &lt 6 SPACE  &trans      &trans  &trans                                                                                             &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
@@ -88,10 +88,10 @@
 
         SYMBOL {
             bindings = <
-&kp AT_SIGN                   &kp GRAVE               &kp QUESTION       &kp EXCLAMATION       &none                               &kp BACKSLASH  &kp LEFT_BRACE                   &kp RIGHT_BRACE                  &kp LESS_THAN        &kp GREATER_THAN
-&mt LEFT_CONTROL ASTERISK     &mt LEFT_WIN AMPERSAND  &mt LEFT_ALT PIPE  &mt LEFT_SHIFT EQUAL  &kp UNDERSCORE  &trans      &trans  &kp SLASH      &mt LEFT_SHIFT LEFT_PARENTHESIS  &mt RIGHT_ALT RIGHT_PARENTHESIS  &mt RIGHT_WIN COLON  &mt RIGHT_CONTROL SEMICOLON
-&mt LEFT_CONTROL KP_NUMBER_0  &kp CARET               &kp TILDE          &kp DOLLAR            &kp PERCENT     &trans      &trans  &kp HASH       &kp LEFT_BRACKET                 &kp LEFT_BRACE                   &kp SINGLE_QUOTE     &kp DOUBLE_QUOTES
-&trans                        &trans                  &trans             &trans                &trans          &sl 6       &trans  &trans                                                                                                &trans
+&kp AT_SIGN                   &kp GRAVE               &kp QUESTION       &kp EXCLAMATION       &none                                    &kp BACKSLASH  &kp LEFT_BRACE                   &kp RIGHT_BRACE                  &kp LESS_THAN        &kp GREATER_THAN
+&mt LEFT_CONTROL ASTERISK     &mt LEFT_WIN AMPERSAND  &mt LEFT_ALT PIPE  &mt LEFT_SHIFT EQUAL  &kp UNDERSCORE  &trans           &trans  &kp SLASH      &mt LEFT_SHIFT LEFT_PARENTHESIS  &mt RIGHT_ALT RIGHT_PARENTHESIS  &mt RIGHT_WIN COLON  &mt RIGHT_CONTROL SEMICOLON
+&mt LEFT_CONTROL KP_NUMBER_0  &kp CARET               &kp TILDE          &kp DOLLAR            &kp PERCENT     &trans           &trans  &kp HASH       &kp LEFT_BRACKET                 &kp LEFT_BRACE                   &kp SINGLE_QUOTE     &kp DOUBLE_QUOTES
+&trans                        &trans                  &trans             &trans                &trans          &lt 6 ENTER      &trans  &trans                                                                                                &trans
             >;
         };
 
