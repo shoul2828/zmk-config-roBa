@@ -73,9 +73,9 @@
 
         default_layer {
             bindings = <
-&kp Q               &kp W           &kp E           &kp R             &kp T                                                  &kp Y        &kp U              &lt 5 I          &kp O           &kp P
-&mt LEFT_CONTROL A  &mt LEFT_WIN S  &mt LEFT_ALT D  &mt LEFT_SHIFT F  &kp G        &kp LS(LG(TAB))         &kp TAB           &kp H        &mt RIGHT_SHIFT J  &mt RIGHT_ALT K  &mt LEFT_WIN L  &mt RIGHT_CONTROL MINUS
-&mt LEFT_SHIFT Z    &kp X           &kp C           &kp V             &kp B        &kp ESC                 &td_home_end      &kp N        &kp M              &kp COMMA        &kp DOT         &kp SLASH
+&kp Q               &kp L           &kp U           &kp COMMA         &kp PERIOD                                             &kp F        &kp W              &lt 5 R          &kp Y           &kp P
+&mt LEFT_CONTROL E  &mt LEFT_WIN I  &mt LEFT_ALT A  &mt LEFT_SHIFT O  &kp MINUS    &kp LS(LG(TAB))         &kp TAB           &kp K        &mt RIGHT_SHIFT T  &mt RIGHT_ALT N  &mt LEFT_WIN S  &mt RIGHT_CONTROL H
+&mt LEFT_SHIFT Z    &kp X           &kp C           &kp V             &kp SLASH    &kp ESC                 &td_home_end      &kp G        &kp D              &kp M            &kp J           &kp B
 &kp LEFT_CONTROL    &kp LEFT_WIN    &kp LEFT_ALT    &lt 3 BACKSPACE   &lt 2 ENTER  &lt 1 INT_MUHENKAN      &lt 1 INT_HENKAN  &lt 2 SPACE                                                      &kp DEL
             >;
 
