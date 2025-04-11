@@ -74,7 +74,7 @@
         default_layer {
             bindings = <
 &kp Q               &kp L           &kp U           &kp COMMA         &kp PERIOD                                             &kp F        &kp W              &lt 5 R          &kp Y           &kp P
-&mt LEFT_CONTROL E  &mt LEFT_WIN I  &mt LEFT_ALT A  &mt LEFT_SHIFT O  &kp MINUS    &kp LS(LG(TAB))         &kp TAB           &kp K        &mt RIGHT_SHIFT T  &mt RIGHT_ALT N  &mt LEFT_WIN S  &mt RIGHT_CONTROL H
+&mt LEFT_CONTROL E  &mt LEFT_WIN I  &mt LEFT_ALT A  &mt LEFT_SHIFT O  &kp MINUS    &kp LG(TAB)             &kp TAB           &kp K        &mt RIGHT_SHIFT T  &mt RIGHT_ALT N  &mt LEFT_WIN S  &mt RIGHT_CONTROL H
 &mt LEFT_SHIFT Z    &kp X           &kp C           &kp V             &kp SLASH    &kp ESC                 &td_home_end      &kp G        &kp D              &kp M            &kp J           &kp B
 &kp LEFT_CONTROL    &kp LEFT_WIN    &kp LEFT_ALT    &lt 3 BACKSPACE   &lt 2 ENTER  &lt 1 INT_MUHENKAN      &lt 1 INT_HENKAN  &lt 2 SPACE                                                      &kp DEL
             >;
@@ -95,10 +95,10 @@
 
         SYMBOL {
             bindings = <
-&kp AT_SIGN                   &kp GRAVE               &kp QUESTION       &kp EXCLAMATION       &none                                           &kp BACKSLASH  &kp LEFT_BRACE                   &kp RIGHT_BRACE                  &kp LESS_THAN        &kp GREATER_THAN
-&mt LEFT_CONTROL ASTERISK     &mt LEFT_WIN AMPERSAND  &mt LEFT_ALT PIPE  &mt LEFT_SHIFT EQUAL  &kp UNDERSCORE  &trans                  &trans  &kp SLASH      &mt LEFT_SHIFT LEFT_PARENTHESIS  &mt RIGHT_ALT RIGHT_PARENTHESIS  &mt RIGHT_WIN COLON  &mt RIGHT_CONTROL SEMICOLON
-&mt LEFT_CONTROL KP_NUMBER_0  &kp CARET               &kp TILDE          &kp DOLLAR            &kp PERCENT     &trans                  &trans  &kp HASH       &kp LEFT_BRACKET                 &kp LEFT_BRACE                   &kp SINGLE_QUOTE     &kp DOUBLE_QUOTES
-&trans                        &trans                  &trans             &trans                &trans          &lt 6 INT_MUHENKAN      &trans  &trans                                                                                                &trans
+&kp AT_SIGN                &kp GRAVE               &kp QUESTION       &kp EXCLAMATION       &none                                           &kp BACKSLASH  &kp LEFT_BRACE                   &kp RIGHT_BRACE                  &kp LESS_THAN        &kp GREATER_THAN
+&mt LEFT_CONTROL ASTERISK  &mt LEFT_WIN AMPERSAND  &mt LEFT_ALT PIPE  &mt LEFT_SHIFT EQUAL  &kp UNDERSCORE  &trans                  &trans  &kp SLASH      &mt LEFT_SHIFT LEFT_PARENTHESIS  &mt RIGHT_ALT RIGHT_PARENTHESIS  &mt RIGHT_WIN COLON  &mt RIGHT_CONTROL SEMICOLON
+&mt LEFT_CONTROL PLUS      &kp CARET               &kp TILDE          &kp DOLLAR            &kp PERCENT     &trans                  &trans  &kp HASH       &kp LEFT_BRACKET                 &kp RIGHT_BRACKET                &kp SINGLE_QUOTE     &kp DOUBLE_QUOTES
+&trans                     &trans                  &trans             &trans                &trans          &lt 6 INT_MUHENKAN      &trans  &trans                                                                                                &trans
             >;
         };
 
