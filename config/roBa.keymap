@@ -91,10 +91,10 @@
 
         ARROW_NUM {
             bindings = <
-&kp ESCAPE                &kp HOME                &kp UP_ARROW    &kp END                  &trans                           &trans           &kp KP_NUMBER_7             &kp KP_NUMBER_8            &kp KP_NUMBER_9            &trans
-&mt LEFT_CONTROL PAGE_UP  &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &trans       &trans      &trans  &kp KP_NUMBER_0  &mt LEFT_SHIFT KP_NUMBER_4  &mt RIGHT_ALT KP_NUMBER_5  &mt RIGHT_WIN KP_NUMBER_6  &kp LEFT_CONTROL
-&kp PAGE_DOWN             &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans       &trans      &trans  &trans           &kp KP_NUMBER_1             &kp KP_NUMBER_2            &kp KP_NUMBER_3            &trans
-&trans                    &trans                  &trans          &trans                   &lt 6 ENTER  &trans      &trans  &trans                                                                                             &trans
+&kp ESCAPE                &kp HOME                &kp UP_ARROW    &kp END                  &trans                           &trans        &kp NUMBER_7             &kp NUMBER_8            &kp NUMBER_9            &trans
+&mt LEFT_CONTROL PAGE_UP  &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &trans       &trans      &trans  &kp NUMBER_0  &mt LEFT_SHIFT NUMBER_4  &mt RIGHT_ALT NUMBER_5  &mt RIGHT_WIN NUMBER_6  &kp LEFT_CONTROL
+&kp PAGE_DOWN             &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans       &trans      &trans  &trans        &kp NUMBER_1             &kp NUMBER_2            &kp NUMBER_3            &trans
+&trans                    &trans                  &trans          &trans                   &lt 6 ENTER  &trans      &trans  &trans                                                                                 &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
