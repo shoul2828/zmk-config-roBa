@@ -86,7 +86,7 @@
 &kp LEFT_CONTROL    &kp LEFT_WIN    &kp LEFT_ALT    &lt 3 BACKSPACE   &lt 2 ENTER  &lt 1 INT_MUHENKAN      &lt 1 INT_HENKAN  &lt 2 SPACE                                                      &kp DEL
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
         };
 
         ARROW_NUM {
