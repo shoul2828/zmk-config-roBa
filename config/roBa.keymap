@@ -80,10 +80,10 @@
 
         default_layer {
             bindings = <
-&kp Q               &kp L           &kp U           &kp COMMA         &kp PERIOD                                             &kp F        &kp W              &kp R            &lt 5 Y         &kp P
-&mt LEFT_CONTROL E  &mt LEFT_WIN I  &mt LEFT_ALT A  &mt LEFT_SHIFT O  &kp MINUS    &kp LG(TAB)             &kp TAB           &kp K        &mt RIGHT_SHIFT T  &mt RIGHT_ALT N  &mt LEFT_WIN S  &mt RIGHT_CONTROL H
-&mt LEFT_SHIFT Z    &kp X           &kp C           &kp V             &kp SLASH    &kp ESC                 &td_home_end      &kp G        &kp D              &kp M            &kp J           &kp B
-&kp LEFT_CONTROL    &kp LEFT_WIN    &kp LEFT_ALT    &lt 3 BACKSPACE   &lt 2 ENTER  &lt 1 INT_MUHENKAN      &lt 1 INT_HENKAN  &lt 2 SPACE                                                      &kp DEL
+&kp Q               &kp L         &kp U           &kp COMMA         &kp PERIOD                                             &kp F        &kp W              &kp R            &lt 5 Y      &kp P
+&mt LEFT_CONTROL E  &mt LCTRL I   &mt LEFT_ALT A  &mt LEFT_SHIFT O  &kp MINUS    &kp LG(TAB)             &kp TAB           &kp K        &mt RIGHT_SHIFT T  &mt RIGHT_ALT N  &mt RCTRL S  &mt RIGHT_CONTROL H
+&mt LEFT_SHIFT Z    &kp X         &kp C           &kp V             &kp SLASH    &kp ESC                 &td_home_end      &kp G        &kp D              &kp M            &kp J        &kp B
+&kp LEFT_CONTROL    &kp LEFT_WIN  &kp LEFT_ALT    &lt 3 BACKSPACE   &lt 2 SPACE  &lt 1 INT_MUHENKAN      &lt 1 INT_HENKAN  &lt 2 ENTER                                                   &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
@@ -91,27 +91,27 @@
 
         ARROW_NUM {
             bindings = <
-&kp ESCAPE                &kp HOME                &kp UP_ARROW    &kp END                  &trans                           &trans        &kp NUMBER_7             &kp NUMBER_8            &kp NUMBER_9            &trans
-&mt LEFT_CONTROL PAGE_UP  &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &trans       &trans      &trans  &kp NUMBER_0  &mt LEFT_SHIFT NUMBER_4  &mt RIGHT_ALT NUMBER_5  &mt RIGHT_WIN NUMBER_6  &kp LEFT_CONTROL
-&kp PAGE_DOWN             &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans       &trans      &trans  &trans        &kp NUMBER_1             &kp NUMBER_2            &kp NUMBER_3            &trans
-&trans                    &trans                  &trans          &trans                   &lt 6 ENTER  &trans      &trans  &trans                                                                                 &trans
+&kp ESCAPE  &kp HOME                &kp UP_ARROW    &kp END                  &trans                           &trans        &kp NUMBER_7             &kp NUMBER_8            &kp NUMBER_9            &trans
+&kp LGUI    &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &trans       &trans      &trans  &kp NUMBER_0  &mt LEFT_SHIFT NUMBER_4  &mt RIGHT_ALT NUMBER_5  &mt RIGHT_WIN NUMBER_6  &kp LEFT_CONTROL
+&trans      &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans       &trans      &trans  &trans        &kp NUMBER_1             &kp NUMBER_2            &kp NUMBER_3            &trans
+&trans      &trans                  &trans          &trans                   &lt 6 ENTER  &trans      &trans  &trans                                                                                 &trans
             >;
         };
 
         SYMBOL {
             bindings = <
-&kp AT_SIGN                &kp GRAVE               &kp QUESTION       &kp EXCLAMATION       &none                                           &kp BACKSLASH  &kp LEFT_BRACE                   &kp RIGHT_BRACE                  &kp LESS_THAN        &kp GREATER_THAN
-&mt LEFT_CONTROL ASTERISK  &mt LEFT_WIN AMPERSAND  &mt LEFT_ALT PIPE  &mt LEFT_SHIFT EQUAL  &kp UNDERSCORE  &trans                  &trans  &kp SLASH      &mt LEFT_SHIFT LEFT_PARENTHESIS  &mt RIGHT_ALT RIGHT_PARENTHESIS  &mt RIGHT_WIN COLON  &mt RIGHT_CONTROL SEMICOLON
-&mt LEFT_CONTROL PLUS      &kp CARET               &kp TILDE          &kp DOLLAR            &kp PERCENT     &trans                  &trans  &kp HASH       &kp LEFT_BRACKET                 &kp RIGHT_BRACKET                &kp SINGLE_QUOTE     &kp DOUBLE_QUOTES
-&trans                     &trans                  &trans             &trans                &trans          &lt 6 INT_MUHENKAN      &trans  &trans                                                                                                &trans
+&kp AT_SIGN                &kp GRAVE            &kp QUESTION       &kp EXCLAMATION       &none                                           &kp BACKSLASH  &kp LEFT_BRACE                   &kp RIGHT_BRACE                  &kp LESS_THAN     &kp GREATER_THAN
+&mt LEFT_CONTROL ASTERISK  &mt RCTRL AMPERSAND  &mt LEFT_ALT PIPE  &mt LEFT_SHIFT EQUAL  &kp UNDERSCORE  &trans                  &trans  &kp SLASH      &mt LEFT_SHIFT LEFT_PARENTHESIS  &mt RIGHT_ALT RIGHT_PARENTHESIS  &mt LCTRL COLON   &mt RIGHT_CONTROL SEMICOLON
+&mt LEFT_CONTROL PLUS      &kp CARET            &kp TILDE          &kp DOLLAR            &kp PERCENT     &trans                  &trans  &kp HASH       &kp LEFT_BRACKET                 &kp RIGHT_BRACKET                &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES
+&trans                     &trans               &trans             &trans                &trans          &lt 6 INT_MUHENKAN      &trans  &trans                                                                                             &trans
             >;
         };
 
         FUNCTION {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &none   &kp F1  &kp F2   &kp F3   &kp F4
+&trans  &trans  &trans  &trans  &trans                      &none   &kp F9  &kp F10  &kp F11  &kp F12
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &none   &kp F5  &kp F6   &kp F7   &kp F8
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &none   &kp F9  &kp F10  &kp F11  &kp F12
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &none   &kp F1  &kp F2   &kp F3   &kp F4
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                            &trans
             >;
         };
@@ -127,10 +127,10 @@
 
         SCROLL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&trans  &trans     &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&trans  &kp LCTRL  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
         };
 
