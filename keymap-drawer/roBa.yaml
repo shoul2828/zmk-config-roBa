@@ -178,7 +178,7 @@ layers:
   - {t: ▽, type: trans}
   MOUSE:
   - {t: ▽, type: trans}
-  - SCROLL
+  - {t: ▽, type: trans}
   - '&mkp MB5'
   - '&mkp MB4'
   - {t: ▽, type: trans}
