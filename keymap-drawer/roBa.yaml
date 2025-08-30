@@ -17,7 +17,7 @@ layers:
   - {t: O, h: LEFT SHIFT}
   - '-'
   - Gui+TAB
-  - TAB
+  - ESC
   - K
   - {t: T, h: RIGHT SHIFT}
   - {t: N, h: RIGHT ALT}
@@ -28,7 +28,7 @@ layers:
   - C
   - V
   - /
-  - ESC
+  - TAB
   - '&td_home_end'
   - G
   - D
