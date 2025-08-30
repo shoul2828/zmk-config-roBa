@@ -9,7 +9,7 @@ layers:
   - F
   - W
   - R
-  - Y
+  - {t: Y, h: SCROLL}
   - P
   - E
   - {t: I, h: LCTRL}
@@ -33,7 +33,7 @@ layers:
   - G
   - D
   - M
-  - {t: J, h: SCROLL}
+  - J
   - B
   - LEFT CONTROL
   - LEFT WIN
