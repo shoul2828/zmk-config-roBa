@@ -11,7 +11,7 @@ layers:
   - R
   - Y
   - P
-  - {t: E, h: LEFT CONTROL}
+  - E
   - {t: I, h: LCTRL}
   - {t: A, h: LEFT ALT}
   - {t: O, h: LEFT SHIFT}
@@ -22,8 +22,8 @@ layers:
   - {t: T, h: RIGHT SHIFT}
   - {t: N, h: RIGHT ALT}
   - {t: S, h: RCTRL}
-  - {t: H, h: RIGHT CONTROL}
-  - {t: Z, h: LEFT SHIFT}
+  - H
+  - Z
   - X
   - C
   - V
@@ -65,8 +65,8 @@ layers:
   - '0'
   - {t: '4', h: LEFT SHIFT}
   - {t: '5', h: RIGHT ALT}
-  - {t: '6', h: RIGHT WIN}
-  - LEFT CONTROL
+  - {t: '6', h: RCTRL}
+  - RGUI
   - {t: ▽, type: trans}
   - Gui+Sft+LEFT ARROW
   - {t: ▽, type: trans}
@@ -99,7 +99,7 @@ layers:
   - '}'
   - <
   - '>'
-  - {t: '*', h: LEFT CONTROL}
+  - '*'
   - {t: '&', h: RCTRL}
   - {t: '|', h: LEFT ALT}
   - {t: '=', h: LEFT SHIFT}
@@ -110,8 +110,8 @@ layers:
   - {t: (, h: LEFT SHIFT}
   - {t: ), h: RIGHT ALT}
   - {t: ':', h: LCTRL}
-  - {t: ;, h: RIGHT CONTROL}
-  - {t: +, h: LEFT CONTROL}
+  - ;
+  - +
   - ^
   - '~'
   - $
@@ -234,7 +234,7 @@ layers:
   - {t: ▽, type: trans}
   - LCTRL
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LSHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
