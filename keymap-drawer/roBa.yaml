@@ -28,8 +28,8 @@ layers:
   - C
   - V
   - /
-  - TAB
   - '&td_home_end'
+  - {t: TAB, h: toggle}
   - G
   - D
   - M
