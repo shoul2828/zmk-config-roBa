@@ -38,9 +38,9 @@ layers:
   - LEFT CONTROL
   - LEFT WIN
   - LEFT ALT
-  - {t: BACKSPACE, h: FUNCTION}
+  - {t: BACKSPACE, h: ARROW_NUM}
   - {t: SPACE, h: SYMBOL}
-  - {t: INT MUHENKAN, h: ARROW_NUM}
+  - {t: INT MUHENKAN, h: FUNCTION}
   - {t: INT HENKAN, h: ARROW_NUM}
   - {t: ENTER, h: SYMBOL}
   - DEL
@@ -82,9 +82,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: SPACE, h: BT_CONFIG}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -170,9 +170,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: SPACE, h: BT_CONFIG}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
