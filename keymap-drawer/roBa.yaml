@@ -50,11 +50,11 @@ layers:
   - UP ARROW
   - END
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - /
   - '7'
   - '8'
   - '9'
-  - {t: ▽, type: trans}
+  - '-'
   - LGUI
   - LEFT ARROW
   - DOWN ARROW
@@ -62,11 +62,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '0'
+  - '*'
   - {t: '4', h: LEFT SHIFT}
   - {t: '5', h: RIGHT ALT}
   - {t: '6', h: RCTRL}
-  - RGUI
+  - +
   - {t: ▽, type: trans}
   - Gui+Sft+LEFT ARROW
   - {t: ▽, type: trans}
@@ -74,12 +74,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '0'
   - '1'
   - '2'
   - '3'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - .
+  - LEFT CONTROL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
@@ -177,49 +177,49 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   MOUSE:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&to_layer_0 Q'
+  - {t: '&to_layer_0 L', h: SCROLL}
   - '&mkp MB5'
   - '&mkp MB4'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&to_layer_0 DOT'
+  - '&to_layer_0 F'
   - '&mkp MB4'
   - '&mkp MB5'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: '&to_layer_0 Y', h: SCROLL}
+  - '&to_layer_0 P'
   - {t: ▽, type: trans}
   - '&mkp MB2'
   - '&mkp MB3'
   - '&mkp MB1'
+  - '&to_layer_0 MINUS'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&to_layer_0 TAB'
+  - '&to_layer_0 K'
   - '&mkp MB1'
   - '&mkp MB3'
   - '&mkp MB2'
   - {t: ▽, type: trans}
-  - Ctl+Z
-  - Ctl+X
-  - Ctl+C
-  - Ctl+V
+  - '&to_layer_0 Z'
+  - '&to_layer_0 X'
+  - '&to_layer_0 C'
+  - '&to_layer_0 V'
+  - '&to_layer_0 SLASH'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&to_layer_0 ESCAPE'
+  - '&to_layer_0 G'
+  - '&to_layer_0 D'
+  - '&to_layer_0 M'
+  - '&to_layer_0 J'
+  - '&to_layer_0 B'
+  - '&to_layer_0 LCTRL'
+  - '&to_layer_0 LEFT_GUI'
+  - '&to_layer_0 LEFT_ALT'
+  - {t: '&to_layer_0 BACKSPACE', h: ARROW_NUM}
+  - {t: '&to_layer_0 SPACE', h: SYMBOL}
+  - {t: '&to_layer_0 INT_MUHENKAN', h: FUNCTION}
+  - {t: '&to_layer_0 INT_HENKAN', h: ARROW_NUM}
+  - {t: '&to_layer_0 ENTER', h: SYMBOL}
+  - '&to_layer_0 DELETE'
   SCROLL:
   - {t: ▽, type: trans}
   - {type: held}
@@ -312,4 +312,4 @@ combos:
 - p: [12, 13]
   k: INT MUHENKAN
 - p: [19, 18]
-  k: INT KANA
+  k: INT HENKAN
