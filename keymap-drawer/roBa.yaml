@@ -187,7 +187,7 @@ layers:
   - '&mkp MB5'
   - {t: '&to_layer_0 Y', h: SCROLL}
   - '&to_layer_0 P'
-  - {t: ▽, type: trans}
+  - LCTRL
   - '&mkp MB2'
   - '&mkp MB3'
   - '&mkp MB1'
@@ -198,7 +198,7 @@ layers:
   - '&mkp MB1'
   - '&mkp MB3'
   - '&mkp MB2'
-  - {t: ▽, type: trans}
+  - RCTRL
   - '&to_layer_0 Z'
   - '&to_layer_0 X'
   - '&to_layer_0 C'
