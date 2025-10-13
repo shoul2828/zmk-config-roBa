@@ -111,7 +111,7 @@
         MOUSE {
             bindings = <
 &to_layer_0 Q      &lt_to_layer_0 5 L    &mkp MB5              &mkp MB4                    &to_layer_0 DOT                                                                         &to_layer_0 F           &mkp MB4       &mkp MB5       &lt_to_layer_0 5 Y  &to_layer_0 P
-&trans             &mkp MB2              &mkp MB3              &mkp MB1                    &to_layer_0 MINUS       &trans                             &to_layer_0 TAB              &to_layer_0 K           &mkp MB1       &mkp MB3       &mkp MB2            &trans
+&kp LCTRL          &mkp MB2              &mkp MB3              &mkp MB1                    &to_layer_0 MINUS       &trans                             &to_layer_0 TAB              &to_layer_0 K           &mkp MB1       &mkp MB3       &mkp MB2            &kp RCTRL
 &to_layer_0 Z      &to_layer_0 X         &to_layer_0 C         &to_layer_0 V               &to_layer_0 SLASH       &trans                             &to_layer_0 ESCAPE           &to_layer_0 G           &to_layer_0 D  &to_layer_0 M  &to_layer_0 J       &to_layer_0 B
 &to_layer_0 LCTRL  &to_layer_0 LEFT_GUI  &to_layer_0 LEFT_ALT  &lt_to_layer_0 1 BACKSPACE  &lt_to_layer_0 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &lt_to_layer_0 1 INT_HENKAN  &lt_to_layer_0 2 ENTER                                                    &to_layer_0 DELETE
             >;
